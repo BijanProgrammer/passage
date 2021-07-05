@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Ultimate Password Generator!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "preferGlobal": true,
+  "bin": "index.js",
+  "scripts": {},
+  "keywords": [
+    "node",
+    "cli",
+    "password"
+  ],
   "author": "BijanProgrammer",
   "license": "MIT",
   "dependencies": {
